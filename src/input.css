@@ -25,3 +25,20 @@ html{
 .tampilkan {
     @apply scale-100 
 }
+
+
+.showMenus > div:nth-child(1) {
+    @apply -translate-y-[10px];
+}
+
+.showMenus > div:nth-child(2) {
+    @apply border-collapse bg-white;
+}
+
+.showMenus > div:nth-child(4) {
+    @apply translate-x-[10px];
+}
+
+.showcircle {
+    @apply scale-100 left-4 bottom-4;
+}
